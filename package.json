@@ -1,0 +1,19 @@
+{
+  "name": "mev-send-eth",
+  "version": "1.0.0",
+  "description": "detect incoming eth and withdraw it.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mev"
+  ],
+  "author": "panda",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1"
+  }
+}
